@@ -1,0 +1,148 @@
+.b-header {
+  border-bottom: 1px solid #f4f5f7;
+
+  &__wrapper {
+    max-width: 740px;
+    padding: 20px 30px 20px;
+  }
+
+  &__content {
+    padding-bottom: 20px;
+  }
+
+  &__button-menu,
+  &__button-search {
+    font-size: 24px;
+    font-weight: 900;
+    color: #0049b0;
+  }
+
+  &__logo {
+    max-width: 172px;
+    height: 43px;
+    padding-left: 5px;
+  }
+
+  &__search {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 748px;
+    background-color: #f4f5f7;
+  }
+
+  &__nav {}
+}
+
+.search-top {
+  padding-top: 10px;
+  display: none;
+}
+
+.b-search {
+  height: 33px;
+  max-width: 350px;
+  flex-wrap: nowrap;
+  border: 1px solid black;
+  border-radius: 2px;
+  border-color: #a1a1a1;
+
+  &__input {
+    height: 100%;
+    width: 100%;
+    padding: 6px 12px;
+    border: none;
+  }
+
+  &__input-btn {
+    height: 100%;
+    min-width: 76px;
+    padding: 0;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #0049b0;
+  }
+}
+
+.b-nav {
+  max-width: 748px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+
+  &__item {
+    border-top: 1px solid #fff;
+    background-color: #f4f5f7;
+    padding: 16px 20px;
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Roboto, serif;
+    color: #202020;
+  }
+}
+
+.b-buttons {
+  padding-top: 50px;
+  text-align: center;
+
+  &__title {
+    padding-bottom: 30px;
+    line-height: 30px;
+    font-size: 36px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    color: #303030;
+  }
+
+  &__btn {
+    margin: 0 10px 20px;
+    padding: 12px 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    font-weight: bold;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+
+    .btn-outline-secondary {
+      color: #0049b0;
+    }
+  }
+}
+
+.b-inputs {
+  padding-top: 50px;
+  text-align: center;
+
+  &__title {
+    padding-bottom: 30px;
+    line-height: 30px;
+    font-size: 36px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    color: #303030;
+  }
+
+  &__content {
+    text-align: left;
+  }
+
+  &__checkboxes {
+
+  }
+
+  &__checkbox {
+  }
+  
+  &__switch {
+    
+    background-color: rgb(52, 49, 201);
+  }
+}

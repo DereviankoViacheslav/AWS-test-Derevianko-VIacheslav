@@ -1,0 +1,32 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .b-header {
+    border-bottom: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .b-header__nav {
+    display: flex;
+    justify-content: center;
+    background: #f4f5f7;
+  }
+
+  .b-nav {
+    max-width: inherit;
+    margin: 0 auto;
+    &__item {
+      display: inline-block;
+    }
+  }
+}
+
+// Large devices (desktops, 1024px and up)
+@media (min-width: 1024px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
